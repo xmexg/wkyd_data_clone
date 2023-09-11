@@ -1,0 +1,2 @@
+创建数据表
+create table if not exists `clone_data`(`id` INT UNSIGNED AUTO_INCREMENT, `res_code` varchar(4), `data_id` MEDIUMINT, `data_userId` MEDIUMINT, `data_userCode` text, `data_semesterId` tinyint, `data_campus` tinyint, `data_beginTime` varchar(20), `data_endTime` varchar(20), `data_totalLength` MEDIUMINT, `data_trueLength` MEDIUMINT, `data_totalTime` MEDIUMINT, `data_markList` LONGTEXT, `data_phoneInfo` TINYTEXT, `data_createTime` varchar(20), `data_pageSize` tinytext, `data_pageNo` tinytext, `data_pageBegin` tinytext, primary key(`id`))ENGINE=InnoDB DEFAULT CHARSET=utf8;
